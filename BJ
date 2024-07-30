@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Personalidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Teste de Personalidade</h1>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. Você prefere trabalhar em equipe ou sozinho?</p>
+                <label><input type="radio" name="q1" value="team">Em equipe</label>
+                <label><input type="radio" name="q1" value="alone">Sozinho</label>
+            </div>
+            <div class="question">
+                <p>2. Você se considera uma pessoa mais introvertida ou extrovertida?</p>
+                <label><input type="radio" name="q2" value="introvert">Introvertida</label>
+                <label><input type="radio" name="q2" value="extrovert">Extrovertida</label>
+            </div>
+            <div class="question">
+                <p>3. Você prefere planejamento ou improvisação?</p>
+                <label><input type="radio" name="q3" value="planning">Planejamento</label>
+                <label><input type="radio" name="q3" value="improvisation">Improvisação</label>
+            </div>
+            <button type="submit">Ver Resultado</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
